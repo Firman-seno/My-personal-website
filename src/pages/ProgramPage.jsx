@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -57,9 +58,9 @@ export default function ProgramPage() {
                     </li>
                   ))}
                 </ul>
-                <a href="/contact" className="inline-flex items-center justify-center w-full px-6 py-3 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-colors duration-200">
+                <Link to="/contact" className="inline-flex items-center justify-center w-full px-6 py-3 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-colors duration-200">
                   Enroll Now
-                </a>
+                </Link>
               </div>
             ))}
           </div>

@@ -2,15 +2,12 @@
   "name": "my-portofolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://firman-seno.github.io/My-Portofolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",
