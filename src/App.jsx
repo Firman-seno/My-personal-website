@@ -22,7 +22,7 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/My-Portofolio">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/activity" element={<ActivityPage />} />

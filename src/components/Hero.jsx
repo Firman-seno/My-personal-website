@@ -1,4 +1,6 @@
 import Photo from "../assets/communication.jpg";
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <section id="home" className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-teal-50 via-white to-amber-50">
@@ -13,15 +15,15 @@ export default function Hero() {
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">Transform your English speaking skills through personalized lessons. Overcome fear of speaking and communicate fluently in real conversations.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <a href="/contact" className="inline-flex items-center justify-center px-8 py-3.5 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-all duration-200 hover:shadow-lg hover:shadow-teal-600/25">
+              <Link to="/contact" className="inline-flex items-center justify-center px-8 py-3.5 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-all duration-200 hover:shadow-lg hover:shadow-teal-600/25">
                 Start Learning
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
-              </a>
-              <a href="/programs" className="inline-flex items-center justify-center px-8 py-3.5 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-teal-600 hover:text-teal-600 transition-all duration-200">
+              </Link>
+              <Link to="/program" className="inline-flex items-center justify-center px-8 py-3.5 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-teal-600 hover:text-teal-600 transition-all duration-200">
                 View Programs
-              </a>
+              </Link>
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center">
