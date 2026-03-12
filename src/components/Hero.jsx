@@ -21,7 +21,7 @@ export default function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </Link>
-              <Link to="/program" className="inline-flex items-center justify-center px-8 py-3.5 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-teal-600 hover:text-teal-600 transition-all duration-200">
+              <Link to="/programs" className="inline-flex items-center justify-center px-8 py-3.5 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-teal-600 hover:text-teal-600 transition-all duration-200">
                 View Programs
               </Link>
             </div>
