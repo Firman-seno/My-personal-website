@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const socialLinks = [
@@ -65,14 +65,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/about" className="text-gray-400 hover:text-white transition-colors">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#experience" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/experience" className="text-gray-400 hover:text-white transition-colors">
                   Experience
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/activity" className="text-gray-400 hover:text-white transition-colors">
@@ -80,24 +80,24 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#programs" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="programs" className="text-gray-400 hover:text-white transition-colors">
                   Programs
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#method" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/method" className="text-gray-400 hover:text-white transition-colors">
                   Method
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/testimonials" className="text-gray-400 hover:text-white transition-colors">
                   Testimonials
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
+                <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
